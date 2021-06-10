@@ -17,5 +17,12 @@ namespace Authorization.Controllers
             return new string[] { "value1", "value2" };
         }
 
+
+        [HttpGet]
+        public ActionResult<IEnumerable<string>> Get3()
+        {
+            return new string[] { "value1", "value2" };
+        }
+
     }
 }
